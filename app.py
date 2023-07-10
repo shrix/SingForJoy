@@ -74,6 +74,20 @@ song_genre  = 6
 #   Incremental integers depending on number of times users played or liked a song.
 #   The values are incremented by 1 each time the user plays or likes their song.
 
+
+# total_songs           # TODO: Total songs present.
+# total_logins          # TODO: Detect logins to increment this value.
+# total_played          # TODO: Aggregate the number of times all songs are played.
+# song_played           # TODO: Detect when a specific song is played to increment this value.
+# song_liked            # TODO: Add a button to like a song, and detect this event to increment value.
+# most_played           # TODO: Analyze song_played to find this.
+# most_liked            # TODO: Analyze song_liked to find this.
+
+# TODO: list of pendings ...
+# Zoom on current video being played, with a button to go back to the list of songs.
+# Create a static frame on top to display info about the audio being played.
+
+
 if 'user_name' not in st.session_state:
     col = st.columns([1, 3, 1])
     with col[1]:
@@ -85,11 +99,17 @@ elif st.session_state.user_name:
     # Set the title and the introduction.
     st.title(f"{st.session_state.user_name.strip().title()}, welcome to DD's own SingForJoy 👋")
 
+    index = 0
+    song_indexes = []
+    max_cols = 3
+
+    # Display the genre selection box and the stats.
     st.write("")
     col = st.columns(3)
     with col[0]:
-    # with st.columns(3)[0]:
+        st.markdown(f"##### Genre :")
         genre_selected = st.selectbox("Genre", 
+            label_visibility="collapsed",
             options=(
                 "All",
                 "Instrumental",
@@ -102,22 +122,25 @@ elif st.session_state.user_name:
                 "Western",
             )
         )
-        # Save the genre selected by the user to the file "data".
-        with open("stats/data", "a") as f:
-            f.write(f"{st.session_state.user_name.strip().title()} selected the genre {genre_selected}\n")
-        st.write("")
-
-    # Keep a count of the number of users visiting the site.
     with col[2]:
-        index = 0
-        song_indexes = []
-        max_cols = 3
+        st.markdown(f"""
+            ##### {len(singforjoy.Songs)} songs shared 
+            ##### enjoyed 654 times 
+            ##### by 23 users 👏
+        """, unsafe_allow_html=True)
+                                                                # TODO: Compute the total_views and total_logins.
+        # st.markdown(f"##### Songs shared ----  {len(singforjoy.Songs)}")
+        # st.markdown(f"##### Times viewed ----  ")
+        # st.markdown(f"##### Total played ------  ")
+        # st.markdown(f"##### Most  played ------ ")
 
+    # Identify the songs based on genre selected.
     while index < len(singforjoy.Songs):
         if genre_selected == singforjoy.Songs[index][song_genre] or genre_selected == "All":
             song_indexes.append(index)
         index += 1
     
+    # Check if any songs are found for the genre selected.
     if len(song_indexes) == 0:
         st.write(f"Sorry, no songs found for the genre '{genre_selected}'")
         st.stop()
@@ -134,14 +157,10 @@ elif st.session_state.user_name:
                     if singforjoy.Songs[song_indexes[i*max_cols+j]][video_url] != None:
                         st.video(singforjoy.Songs[song_indexes[i*max_cols+j]][video_url])
                     else:
-                        st.image(singforjoy.Songs[song_indexes[i*max_cols+j]][image_url], use_column_width=True)
+                        if singforjoy.Songs[song_indexes[i*max_cols+j]][image_url] != None:
+                            st.image(singforjoy.Songs[song_indexes[i*max_cols+j]][image_url], use_column_width=True)
+                        else:
+                            st.image("https://picsum.photos/540/960", use_column_width=True)            # Random filler image
                     st.markdown(f"##### :blue[**{singforjoy.Songs[song_indexes[i*max_cols+j]][singer_name]}**] -:- :green[**_{singforjoy.Songs[song_indexes[i*max_cols+j]][song_name]}_**]")
                     st.audio(singforjoy.Songs[song_indexes[i*max_cols+j]][audio_url])
 
-    # Render a random flower image of 512x512 pixels.
-    # st.image("https://picsum.photos/512", use_column_width=True)
-
-    # # Embed a youtube video
-    # st_player("https://youtu.be/CmSKVW1v0xM")
-    # Embed a music from SoundCloud
-    # st_player("https://soundcloud.com/imaginedragons/demons")

@@ -114,9 +114,9 @@ __pypackages__/
 
 # Environments
 .env
-.venv
+.vS4j
 env/
-venv/
+vS4j/
 ENV/
 env.bak/
-venv.bak/
+vS4j.bak/

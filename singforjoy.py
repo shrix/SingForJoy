@@ -14,7 +14,7 @@ Songs = [           # 39 rows, 7 cols
         "1",
         "Aanya",
         "Ambar Se Thoda",
-        "https://picsum.photos/540/960",
+        None,
         None,
         None,
         "Bollywood"
@@ -23,7 +23,7 @@ Songs = [           # 39 rows, 7 cols
         "2",
         "Aashay",
         "Ghanan Ghanan",
-        "https://picsum.photos/540/960",
+        None,
         "./media/aashay-ghanan_ghanan.mp3",
         "./media/aashay-ghanan_ghanan.mp4",
         "Bollywood"
@@ -32,7 +32,7 @@ Songs = [           # 39 rows, 7 cols
         "3",
         "Abhaji",
         "Aha Rhim Jhim Ke",
-        "https://picsum.photos/540/960",
+        None,
         "./media/abhaji-aha_rhim_jhim_ke.mp3",
         None,
         "Bollywood"
@@ -42,7 +42,7 @@ Songs = [           # 39 rows, 7 cols
         "4",
         "Ahaan",
         "Wishes",                   
-        "https://picsum.photos/540/960",
+        None,
         "./media/ahaan-wishes.mp3",
         "./media/ahaan-wishes.mp4",
         None
@@ -51,7 +51,7 @@ Songs = [           # 39 rows, 7 cols
         "5",
         "Anjali",
         "Anhkon Ko Teri Aadhat",
-        "https://picsum.photos/540/960",
+        None,
         "./media/anjali-anhkon_ko_teri_aadhat.mp3",
         None,
         "Bollywood"
@@ -60,7 +60,7 @@ Songs = [           # 39 rows, 7 cols
         "6",
         "Arya",
         "Love u Zindagi",           
-        "https://picsum.photos/540/960",
+        None,
         "./media/arya-love_u_zindagi.mp3",
         "./media/arya-love_u_zindagi.mp4",
         "Bollywood"
@@ -70,7 +70,7 @@ Songs = [           # 39 rows, 7 cols
         "7",
         "Devji",      
         "Kora Kagaz",               
-        "https://picsum.photos/540/960",
+        None,
         "./media/devji-kora_kagaz.m4a",
         None,
         "Bollywood"
@@ -79,7 +79,7 @@ Songs = [           # 39 rows, 7 cols
         "8",
         "Dhruv",      
         "Janeman Janeman",          
-        "https://picsum.photos/540/960",
+        None,
         None,
         None,
         "Bollywood"
@@ -88,7 +88,7 @@ Songs = [           # 39 rows, 7 cols
         "9",
         "Divya",      
         "Jo Achu Thananda",         
-        "https://picsum.photos/540/960",
+        None,
         "./media/divya-jo_achu_thananda.mp3",
         "./media/divya-jo_achu_thananda.mp4",
         "Tollywood"
@@ -98,7 +98,7 @@ Songs = [           # 39 rows, 7 cols
         "10",
         "Imtiaz",
         "Sundari Kannal Oru",
-        "https://picsum.photos/540/960",
+        None,
         "./media/Imthiaz-sundari_kannal_oru.mp3",
         None,
         "Tamilwood"
@@ -107,7 +107,7 @@ Songs = [           # 39 rows, 7 cols
         "11",
         "Indiraji",
         "Mahee Bolna",
-        "https://picsum.photos/540/960",
+        None,
         "./media/indiraji-mahee_bolna.mp3",
         None,
         "Bollywood"
@@ -116,7 +116,7 @@ Songs = [           # 39 rows, 7 cols
         "12",
         "Lakshita",
         "Shrungara",
-        "https://picsum.photos/540/960",
+        None,
         "./media/lakshita-shrungara.mp3",
         "./media/lakshita-shrungara.mp4",
         "Kollywood"
@@ -126,7 +126,7 @@ Songs = [           # 39 rows, 7 cols
         "13",
         "Latha",
         "Madhuban Khushboo",
-        "https://picsum.photos/540/960",
+        None,
         "./media/latha-madhuban_khusboo.mp3",
         None,
         "Bollywood"
@@ -135,7 +135,7 @@ Songs = [           # 39 rows, 7 cols
         "14",
         "Mandira",
         "Jeevan Se Bhari",
-        "https://picsum.photos/540/960",
+        None,
         "./media/mandira-jeevans_se_bhari.mp3",
         None,
         "Bollywood"
@@ -144,7 +144,7 @@ Songs = [           # 39 rows, 7 cols
         "15",
         "Mukeshji",
         "Koyi Ham Dum",
-        "https://picsum.photos/540/960",
+        None,
         "./media/mukeshji-koyi_ham_dam.mp3",
         None,
         "Bollywood"
@@ -154,7 +154,7 @@ Songs = [           # 39 rows, 7 cols
         "16",
         "Namita",
         "Dil Ka Bawar Kare",
-        "https://picsum.photos/540/960",
+        None,
         "./media/namita-dil_ka_bawar_kare.mp3",
         None,
         "Bollywood"
@@ -163,7 +163,7 @@ Songs = [           # 39 rows, 7 cols
         "17",
         "Navya",
         "Love u Zindagi",
-        "https://picsum.photos/540/960",
+        None,
         "./media/navya-love_u_zindagi.mp3",
         "./media/navya-love_u_zindagi.mp4",
         "Bollywood"
@@ -172,7 +172,7 @@ Songs = [           # 39 rows, 7 cols
         "18",
         "Nuzhe",
         "Hume Thumse Pyaar",
-        "https://picsum.photos/540/960",
+        None,
         "./media/nuzhe-hume_thum_se_pyaar_kitna.mp3",
         None,
         "Bollywood"
@@ -182,7 +182,7 @@ Songs = [           # 39 rows, 7 cols
         "19",
         "Prathibaji",
         "Mile Ho Thum Humko",
-        "https://picsum.photos/540/960",
+        None,
         "./media/prathibaji-mile_ho_thum_humko.mp3",
         None,
         "Bollywood"
@@ -191,7 +191,7 @@ Songs = [           # 39 rows, 7 cols
         "20",
         "Preeti",
         "In Dino",
-        "https://picsum.photos/540/960",
+        None,
         "./media/preeti-in_dino.mp3",
         None,
         "Bollywood"
@@ -200,7 +200,7 @@ Songs = [           # 39 rows, 7 cols
         "21",
         "Rama",
         "Kyon Na Bole Mose",
-        "https://picsum.photos/540/960",
+        None,
         "./media/rama-kyon_na_bole_mose.mp3",
         "./media/rama-kyon_na_bole_mose.mp4",
         "Bollywood"
@@ -210,7 +210,7 @@ Songs = [           # 39 rows, 7 cols
         "22",
         "Rishank",
         "Piano play",
-        "https://picsum.photos/540/960",
+        None,
         "./media/rishank-piano_1.mp3",
         "./media/rishank-piano_1.mp4",
         "Instrumental"
@@ -219,7 +219,7 @@ Songs = [           # 39 rows, 7 cols
         "23",
         "Roopa",
         "Chaand Si Mehbooba",
-        "https://picsum.photos/540/960",
+        None,
         "./media/roopa-chaand_si_mehbooba.mp3",
         None,
         "Bollywood"
@@ -228,7 +228,7 @@ Songs = [           # 39 rows, 7 cols
         "24",
         "Ruby",
         "Dheere Dheere Aare",
-        "https://picsum.photos/540/960",
+        None,
         "./media/ruby-dheere_dheere_aare.mp3",
         None,
         "Bollywood"
@@ -238,7 +238,7 @@ Songs = [           # 39 rows, 7 cols
         "25",
         "Sadiya",
         "Yeh Raatein Yeh Mausam",
-        "https://picsum.photos/540/960",
+        None,
         "./media/sadiya-yeh_raatein_yeh_mausam.mp3",
         "./media/sadiya-yeh_raatein_yeh_mausam.mp4",
         "Bollywood"
@@ -247,7 +247,7 @@ Songs = [           # 39 rows, 7 cols
         "26",
         "Saikat",
         "Namahshivaay",
-        "https://picsum.photos/540/960",
+        None,
         "./media/saikat-namahshivaay.mp3",
         None,
         "Devotional"
@@ -256,7 +256,7 @@ Songs = [           # 39 rows, 7 cols
         "27",
         "Shalinji",
         "Que Sera Sera",
-        "https://picsum.photos/540/960",
+        None,
         "./media/shaliniji-que_sera_sera.mp3",
         None,
         "Western"
@@ -266,7 +266,7 @@ Songs = [           # 39 rows, 7 cols
         "28",
         "Shonali",
         "Yaad Kiya Dil Ne Kaha",
-        "https://picsum.photos/540/960",
+        None,
         "./media/shonali -yaad_kiya_thum_ne.mp3",
         None,
         "Bollywood"
@@ -275,7 +275,7 @@ Songs = [           # 39 rows, 7 cols
         "29",
         "Shouri/Sireesha",
         "Sadananu",
-        "https://picsum.photos/540/960",
+        None,
         "./media/shourisireesha-sadananu.m4a",
         None,
         "Carnatic"
@@ -284,7 +284,7 @@ Songs = [           # 39 rows, 7 cols
         "30",
         "Shriank",
         "Chasing Cars",
-        "https://picsum.photos/540/960",
+        None,
         "./media/shriank-chasing_cars.mp3",
         None,
         "Western"
@@ -294,7 +294,7 @@ Songs = [           # 39 rows, 7 cols
         "31",
         "Srikala",
         "Dhim Dhim",
-        "https://picsum.photos/540/960",
+        None,
         "./media/srikala-dhim_dhim.m4a",
         None,
         "Carnatic"
@@ -303,7 +303,7 @@ Songs = [           # 39 rows, 7 cols
         "32",
         "Sriranjni",
         "Dum Dum Diga Diga",
-        "https://picsum.photos/540/960",
+        None,
         "./media/sriranjani-dum_dum_diga_diga.mp3",
         "./media/sriranjani-dum_dum_diga_diga.mp4",
         "Bollywood"
@@ -312,7 +312,7 @@ Songs = [           # 39 rows, 7 cols
         "33",
         "Sujatha",
         "Poovey Sempoovey",
-        "https://picsum.photos/540/960",
+        None,
         "./media/sujatha-poovey_sempoovey.m4a",
         None,
         "Tamilwood"
@@ -322,7 +322,7 @@ Songs = [           # 39 rows, 7 cols
         "34",
         "Sunitaa",
         "Afreen Afreen",
-        "https://picsum.photos/540/960",
+        None,
         "./media/sunitaa-afreen_afreen.mp3",
         None,
         "Bollywood"
@@ -331,7 +331,7 @@ Songs = [           # 39 rows, 7 cols
         "35",
         "Suvaleena",
         "Piya Those Naina Lage",
-        "https://picsum.photos/540/960",
+        None,
         "./media/suvaleena-piya_those_naina_lage.m4a",
         None,
         "Bollywood"
@@ -340,7 +340,7 @@ Songs = [           # 39 rows, 7 cols
         "36",
         "Vaidehiji",
         "Lalithambika Keerthana",
-        "https://picsum.photos/540/960",
+        None,
         "./media/vaidehiji-lalithambikam_keerthana.mp3",
         None,
         "Carnatic"
@@ -350,7 +350,7 @@ Songs = [           # 39 rows, 7 cols
         "37",
         "Varsha",
         "Bin Tere Sanam",
-        "https://picsum.photos/540/960",
+        None,
         "./media/varsha-bin_tere_sanam.mp3",
         None,
         "Bollywood"
@@ -359,7 +359,7 @@ Songs = [           # 39 rows, 7 cols
         "38",
         "Vasundara",
         "Paluke Bangaara Mayena",
-        "https://picsum.photos/540/960",
+        None,
         "./media/vasundhara-paluke_bangaaramayena.mp3",
         None,
         "Tollywood"
@@ -368,7 +368,7 @@ Songs = [           # 39 rows, 7 cols
         "39",
         "Zuri",
         "Leaving on a Jet Plane",
-        "https://picsum.photos/540/960",
+        None,
         "./media/zuri-leaving_on_a_jet_plane.mp3",
         None,
         "Western"

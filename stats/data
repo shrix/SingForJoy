@@ -1,167 +1,23 @@
-# Usage statistics
-# ----------------
-
-usage_statistics = {
-    "visits" : 0,
-    "audio_played" : 0,
-    "video_played" : 0,
-}
-
-play_statistics = {
-    "1" : {
-        "played" : 0,
-        "liked" : 0,
-    },
-    "2" : {
-        "played" : 0,
-        "liked" : 0,
-    },
-    "3" : {
-        "played" : 0,
-        "liked" : 0,
-    },
-    "4" : {
-        "played" : 0,
-        "liked" : 0,
-    },
-    "5" : {
-        "played" : 0,
-        "liked" : 0,
-    },
-    "6" : {
-        "played" : 0,
-        "liked" : 0,
-    },
-    "7" : {
-        "played" : 0,
-        "liked" : 0,
-    },
-    "8" : {
-        "played" : 0,
-        "liked" : 0,
-    },
-    "9" : {
-        "played" : 0,
-        "liked" : 0,
-    },
-    "10" : {
-        "played" : 0,
-        "liked" : 0,
-    },
-    "11" : {
-        "played" : 0,
-        "liked" : 0,
-    },
-    "12" : {
-        "played" : 0,
-        "liked" : 0,
-    },
-    "13" : {
-        "played" : 0,
-        "liked" : 0,
-    },
-    "14" : {
-        "played" : 0,
-        "liked" : 0,
-    },
-    "15" : {
-        "played" : 0,
-        "liked" : 0,
-    },
-    "16" : {
-        "played" : 0,
-        "liked" : 0,
-    },
-    "17" : {
-        "played" : 0,
-        "liked" : 0,
-    },
-    "18" : {
-        "played" : 0,
-        "liked" : 0,
-    },
-    "19" : {
-        "played" : 0,
-        "liked" : 0,
-    },
-    "20" : {
-        "played" : 0,
-        "liked" : 0,
-    },
-    "21" : {
-        "played" : 0,
-        "liked" : 0,
-    },
-    "22" : {
-        "played" : 0,
-        "liked" : 0,
-    },
-    "23" : {
-        "played" : 0,
-        "liked" : 0,
-    },
-    "24" : {
-        "played" : 0,
-        "liked" : 0,
-    },
-    "25" : {
-        "played" : 0,
-        "liked" : 0,
-    },
-    "26" : {
-        "played" : 0,
-        "liked" : 0,
-    },
-    "27" : {
-        "played" : 0,
-        "liked" : 0,
-    },
-    "28" : {
-        "played" : 0,
-        "liked" : 0,
-    },
-    "29" : {
-        "played" : 0,
-        "liked" : 0,
-    },
-    "30" : {
-        "played" : 0,
-        "liked" : 0,
-    },
-    "31" : {
-        "played" : 0,
-        "liked" : 0,
-    },
-    "32" : {
-        "played" : 0,
-        "liked" : 0,
-    },
-    "33" : {
-        "played" : 0,
-        "liked" : 0,
-    },
-    "34" : {
-        "played" : 0,
-        "liked" : 0,
-    },
-    "35" : {
-        "played" : 0,
-        "liked" : 0,
-    },
-    "36" : {
-        "played" : 0,
-        "liked" : 0,
-    },
-    "37" : {
-        "played" : 0,
-        "liked" : 0,
-    },
-    "38" : {
-        "played" : 0,
-        "liked" : 0,
-    },
-    "39" : {
-        "played" : 0,
-        "liked" : 0,
-    },
+{
+    "stats": {
+        "usage_stats": {
+            "visits": 0,
+            "audio_played": 0,
+            "video_played": 0
+        },
+        "play_stats": {
+            "1": {
+                "audio_played": 0,
+                "audio_liked": 0,
+                "video_played": 0,
+                "video_liked": 0
+            },
+            "2": {
+                "audio_played": 0,
+                "audio_liked": 0,
+                "video_played": 0,
+                "video_liked": 0
+            }
+        }
+    }
 }
