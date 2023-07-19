@@ -74,19 +74,17 @@ song_genre  = 6
 #   Incremental integers depending on number of times users played or liked a song.
 #   The values are incremented by 1 each time the user plays or likes their song.
 
-
-# total_songs           # TODO: Total songs present.
-# total_logins          # TODO: Detect logins to increment this value.
-# total_played          # TODO: Aggregate the number of times all songs are played.
-# song_played           # TODO: Detect when a specific song is played to increment this value.
-# song_liked            # TODO: Add a button to like a song, and detect this event to increment value.
-# most_played           # TODO: Analyze song_played to find this.
-# most_liked            # TODO: Analyze song_liked to find this.
+# total_songs = 0           # TODO: Total songs present.
+# total_logins = 0          # TODO: Detect logins to increment this value.
+# total_played = 0          # TODO: Aggregate the number of times all songs are played.
+# most_played = 0           # TODO: Analyze song_played to find this.
+# song_played = 0           # TODO: Detect when a specific song is played to increment this value.
+# song_liked = 0            # TODO: Add a button to like a song, and detect this event to increment value.
+# most_liked = 0            # TODO: Analyze song_liked to find this.
 
 # TODO: list of pendings ...
 # Zoom on current video being played, with a button to go back to the list of songs.
 # Create a static frame on top to display info about the audio being played.
-
 
 if 'user_name' not in st.session_state:
     col = st.columns([1, 3, 1])
@@ -98,6 +96,19 @@ if 'user_name' not in st.session_state:
 elif st.session_state.user_name:
     # Set the title and the introduction.
     st.title(f"{st.session_state.user_name.strip().title()}, welcome to DD's own SingForJoy 👋")
+    # Keep a count of the number of times the page is visited.
+    if 'visits' not in st.session_state:
+        st.session_state.visits = 0
+    st.session_state.visits += 1
+    # Write the stats into the file stats/data.
+    # TODO: Read the stats from the file stats/data.
+
+    # Display the introduction.
+    st.markdown("""
+        ##### SingForJoy is a collection of songs that we all sing along, a few have been shared here.
+        ##### You can listen to these songs, watch a few of them, and enjoy them all 🎉
+        ####   
+    """)
 
     index = 0
     song_indexes = []
@@ -124,15 +135,17 @@ elif st.session_state.user_name:
         )
     with col[2]:
         st.markdown(f"""
-            ##### {len(singforjoy.Songs)} songs shared 
-            ##### enjoyed 654 times 
-            ##### by 23 users 👏
+            #####   
+            #####   
+            #####   
+            ##### {len(singforjoy.Songs)} songs shared here, and enjoyed {st.session_state.visits} times 👏
         """, unsafe_allow_html=True)
-                                                                # TODO: Compute the total_views and total_logins.
-        # st.markdown(f"##### Songs shared ----  {len(singforjoy.Songs)}")
-        # st.markdown(f"##### Times viewed ----  ")
-        # st.markdown(f"##### Total played ------  ")
-        # st.markdown(f"##### Most  played ------ ")
+
+        # TODO: Compute the total_views and total_logins.
+        ##### Total played ------  {total_played}
+        ##### Most  played ------  {most_played}
+        ##### Total liked -------  {total_liked}
+        ##### Most  liked -------  {most_liked}
 
     # Identify the songs based on genre selected.
     while index < len(singforjoy.Songs):
@@ -163,4 +176,3 @@ elif st.session_state.user_name:
                             st.image("https://picsum.photos/540/984", use_column_width=True)            # Random filler image
                     st.markdown(f"##### :blue[**{singforjoy.Songs[song_indexes[i*max_cols+j]][singer_name]}**] -:- :green[**_{singforjoy.Songs[song_indexes[i*max_cols+j]][song_name]}_**]")
                     st.audio(singforjoy.Songs[song_indexes[i*max_cols+j]][audio_url])
-

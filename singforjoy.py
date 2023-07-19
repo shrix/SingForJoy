@@ -282,7 +282,7 @@ Songs = [           # 44 rows, 7 cols
     ],
     [
         "27",
-        "Shalinji",
+        "Shaliniji",
         "Que Sera Sera",
         None,
         "./media/shaliniji-que_sera_sera.mp3",
