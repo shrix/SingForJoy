@@ -9,17 +9,17 @@
 # song_genre  = 6
 
 # List of songs for SingForJoy '23.
-Songs = [           # 39 rows, 7 cols 
-    [   # 0
+Songs = [           # 44 rows, 7 cols 
+    [
         "1",
         "Aanya",
         "Ambar Se Thoda",
         None,
-        None,
+        "./media/aanya-komma_uyyala.mp3",
         None,
         "Bollywood"
     ],
-    [   # 1
+    [
         "2",
         "Aashay",
         "Ghanan Ghanan",
@@ -28,7 +28,7 @@ Songs = [           # 39 rows, 7 cols
         "./media/aashay-ghanan_ghanan.mp4",
         "Bollywood"
     ],
-    [   # 2
+    [
         "3",
         "Abhaji",
         "Aha Rhim Jhim Ke",
@@ -37,8 +37,7 @@ Songs = [           # 39 rows, 7 cols
         None,
         "Bollywood"
     ],
-
-    [   # 3
+    [
         "4",
         "Ahaan",
         "Wishes",                   
@@ -47,7 +46,7 @@ Songs = [           # 39 rows, 7 cols
         "./media/ahaan-wishes.mp4",
         None
     ],
-    [   # 4
+    [
         "5",
         "Anjali",
         "Anhkon Ko Teri Aadhat",
@@ -56,7 +55,16 @@ Songs = [           # 39 rows, 7 cols
         None,
         "Bollywood"
     ],
-    [   # 5
+    [
+        "44",
+        "Anuyaji",
+        "Jhuki Jhuki Si Nazar",
+        None,
+        "./media/anuyaji-jhuki_jhuki_si_nazar.mp3",
+        None,
+        "Bollywood"
+    ],
+    [
         "6",
         "Arya",
         "Love u Zindagi",           
@@ -65,8 +73,7 @@ Songs = [           # 39 rows, 7 cols
         "./media/arya-love_u_zindagi.mp4",
         "Bollywood"
     ],
-
-    [   # 6
+    [
         "7",
         "Devji",      
         "Kora Kagaz",               
@@ -75,7 +82,7 @@ Songs = [           # 39 rows, 7 cols
         None,
         "Bollywood"
     ],
-    [   # 7
+    [
         "8",
         "Dhruv",      
         "Janeman Janeman",          
@@ -84,7 +91,7 @@ Songs = [           # 39 rows, 7 cols
         None,
         "Bollywood"
     ],
-    [   # 8
+    [
         "9",
         "Divya",      
         "Jo Achu Thananda",         
@@ -93,8 +100,16 @@ Songs = [           # 39 rows, 7 cols
         "./media/divya-jo_achu_thananda.mp4",
         "Tollywood"
     ],
-
-    [   # 9
+    [
+        "42",
+        "Hemant",
+        "Oh Phirkiwali",
+        None,
+        "./media/hemant-oh_phirkiwali.mp3",
+        None,
+        "Bollywood"
+    ],
+    [
         "10",
         "Imtiaz",
         "Sundari Kannal Oru",
@@ -103,7 +118,7 @@ Songs = [           # 39 rows, 7 cols
         None,
         "Tamilwood"
     ],
-    [   # 10
+    [
         "11",
         "Indiraji",
         "Mahee Bolna",
@@ -112,7 +127,7 @@ Songs = [           # 39 rows, 7 cols
         None,
         "Bollywood"
     ],
-    [   # 11
+    [
         "12",
         "Lakshita",
         "Shrungara",
@@ -121,8 +136,7 @@ Songs = [           # 39 rows, 7 cols
         "./media/lakshita-shrungara.mp4",
         "Kollywood"
     ],
-
-    [   # 12
+    [
         "13",
         "Latha",
         "Madhuban Khushboo",
@@ -131,7 +145,7 @@ Songs = [           # 39 rows, 7 cols
         None,
         "Bollywood"
     ],
-    [   # 13
+    [
         "14",
         "Mandira",
         "Jeevan Se Bhari",
@@ -140,7 +154,7 @@ Songs = [           # 39 rows, 7 cols
         None,
         "Bollywood"
     ],
-    [   # 14
+    [
         "15",
         "Mukeshji",
         "Koyi Ham Dum",
@@ -149,8 +163,7 @@ Songs = [           # 39 rows, 7 cols
         None,
         "Bollywood"
     ],
-
-    [   # 15
+    [
         "16",
         "Namita",
         "Dil Ka Bawar Kare",
@@ -159,7 +172,7 @@ Songs = [           # 39 rows, 7 cols
         None,
         "Bollywood"
     ],
-    [   # 16
+    [
         "17",
         "Navya",
         "Love u Zindagi",
@@ -168,7 +181,16 @@ Songs = [           # 39 rows, 7 cols
         "./media/navya-love_u_zindagi.mp4",
         "Bollywood"
     ],
-    [   # 17
+    [
+        "40",
+        "Nidhi/Apurv",
+        "Kisiki Muskurahaton",
+        None,
+        "./media/nidhi_apurv-kisiki_muskurahaton.mp3",
+        "./media/nidhi_apurv-kisiki_muskurahaton.mp4",
+        "Bollywood"
+    ],
+    [
         "18",
         "Nuzhe",
         "Hume Thumse Pyaar",
@@ -177,8 +199,7 @@ Songs = [           # 39 rows, 7 cols
         None,
         "Bollywood"
     ],
-
-    [   # 18
+    [
         "19",
         "Prathibaji",
         "Mile Ho Thum Humko",
@@ -187,7 +208,7 @@ Songs = [           # 39 rows, 7 cols
         None,
         "Bollywood"
     ],
-    [   # 19
+    [
         "20",
         "Preeti",
         "In Dino",
@@ -196,7 +217,7 @@ Songs = [           # 39 rows, 7 cols
         None,
         "Bollywood"
     ],
-    [   # 20
+    [
         "21",
         "Rama",
         "Kyon Na Bole Mose",
@@ -205,8 +226,7 @@ Songs = [           # 39 rows, 7 cols
         "./media/rama-kyon_na_bole_mose.mp4",
         "Bollywood"
     ],
-
-    [   # 21
+    [
         "22",
         "Rishank",
         "Piano play",
@@ -215,7 +235,7 @@ Songs = [           # 39 rows, 7 cols
         "./media/rishank-piano_1.mp4",
         "Instrumental"
     ],
-    [   # 22
+    [
         "23",
         "Roopa",
         "Chaand Si Mehbooba",
@@ -224,7 +244,16 @@ Songs = [           # 39 rows, 7 cols
         None,
         "Bollywood"
     ],
-    [   # 23
+    [
+        "41",
+        "Rounak",
+        "Aajaa Sanam",
+        "./media/rounak.jpg",
+        "./media/rounak-aajaa_sanam.mp3",
+        None,
+        "Bollywood"
+    ],
+    [
         "24",
         "Ruby",
         "Dheere Dheere Aare",
@@ -233,8 +262,7 @@ Songs = [           # 39 rows, 7 cols
         None,
         "Bollywood"
     ],
-
-    [   # 24
+    [
         "25",
         "Sadiya",
         "Yeh Raatein Yeh Mausam",
@@ -243,7 +271,7 @@ Songs = [           # 39 rows, 7 cols
         "./media/sadiya-yeh_raatein_yeh_mausam.mp4",
         "Bollywood"
     ],
-    [   # 25
+    [
         "26",
         "Saikat",
         "Namahshivaay",
@@ -252,7 +280,7 @@ Songs = [           # 39 rows, 7 cols
         None,
         "Devotional"
     ],
-    [   # 26
+    [
         "27",
         "Shalinji",
         "Que Sera Sera",
@@ -261,8 +289,7 @@ Songs = [           # 39 rows, 7 cols
         None,
         "Western"
     ],
-
-    [   # 27
+    [
         "28",
         "Shonali",
         "Yaad Kiya Dil Ne Kaha",
@@ -271,7 +298,7 @@ Songs = [           # 39 rows, 7 cols
         None,
         "Bollywood"
     ],
-    [   # 28
+    [
         "29",
         "Shouri/Sireesha",
         "Sadananu",
@@ -280,7 +307,7 @@ Songs = [           # 39 rows, 7 cols
         None,
         "Carnatic"
     ],
-    [   # 29
+    [
         "30",
         "Shriank",
         "Chasing Cars",
@@ -289,8 +316,7 @@ Songs = [           # 39 rows, 7 cols
         None,
         "Western"
     ],
-
-    [   # 30
+    [
         "31",
         "Srikala",
         "Dhim Dhim",
@@ -299,7 +325,7 @@ Songs = [           # 39 rows, 7 cols
         None,
         "Carnatic"
     ],
-    [   # 31
+    [
         "32",
         "Sriranjni",
         "Dum Dum Diga Diga",
@@ -308,7 +334,7 @@ Songs = [           # 39 rows, 7 cols
         "./media/sriranjani-dum_dum_diga_diga.mp4",
         "Bollywood"
     ],
-    [   # 32
+    [
         "33",
         "Sujatha",
         "Poovey Sempoovey",
@@ -317,8 +343,7 @@ Songs = [           # 39 rows, 7 cols
         None,
         "Tamilwood"
     ],
-
-    [   # 33
+    [
         "34",
         "Sunitaa",
         "Afreen Afreen",
@@ -327,7 +352,7 @@ Songs = [           # 39 rows, 7 cols
         None,
         "Bollywood"
     ],
-    [   # 34
+    [
         "35",
         "Suvaleena",
         "Piya Those Naina Lage",
@@ -336,7 +361,7 @@ Songs = [           # 39 rows, 7 cols
         None,
         "Bollywood"
     ],
-    [   # 35
+    [
         "36",
         "Vaidehiji",
         "Lalithambika Keerthana",
@@ -345,8 +370,7 @@ Songs = [           # 39 rows, 7 cols
         None,
         "Carnatic"
     ],
-
-    [   # 36
+    [
         "37",
         "Varsha",
         "Bin Tere Sanam",
@@ -355,7 +379,7 @@ Songs = [           # 39 rows, 7 cols
         None,
         "Bollywood"
     ],
-    [   # 37
+    [
         "38",
         "Vasundara",
         "Paluke Bangaara Mayena",
@@ -364,7 +388,16 @@ Songs = [           # 39 rows, 7 cols
         None,
         "Tollywood"
     ],
-    [   # 38
+    [
+        "43",
+        "Zizu",
+        "Black Birds",
+        None,
+        "./media/zizu-black_birds.mp3",
+        None,
+        "Western"
+    ],
+    [
         "39",
         "Zuri",
         "Leaving on a Jet Plane",

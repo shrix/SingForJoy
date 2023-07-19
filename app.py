@@ -146,9 +146,9 @@ elif st.session_state.user_name:
         st.stop()
     if len(song_indexes) < max_cols:
         max_cols = len(song_indexes)
-
+    
     # Have multiple random images starting from the 2nd row onwards.
-    for i in range(13):
+    for i in range( int(len(song_indexes)/max_cols) + 1 ):
         col = st.columns(max_cols)
         for j in range(max_cols):
             if i*max_cols+j < len(song_indexes):
@@ -160,7 +160,7 @@ elif st.session_state.user_name:
                         if singforjoy.Songs[song_indexes[i*max_cols+j]][image_url] != None:
                             st.image(singforjoy.Songs[song_indexes[i*max_cols+j]][image_url], use_column_width=True)
                         else:
-                            st.image("https://picsum.photos/540/960", use_column_width=True)            # Random filler image
+                            st.image("https://picsum.photos/540/984", use_column_width=True)            # Random filler image
                     st.markdown(f"##### :blue[**{singforjoy.Songs[song_indexes[i*max_cols+j]][singer_name]}**] -:- :green[**_{singforjoy.Songs[song_indexes[i*max_cols+j]][song_name]}_**]")
                     st.audio(singforjoy.Songs[song_indexes[i*max_cols+j]][audio_url])
 
