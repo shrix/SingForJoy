@@ -42,6 +42,11 @@ st.markdown(
     "<style>" + st.session_state["style_css"] + "</style>", unsafe_allow_html=True
 )
 
+# .env #######
+# Visits
+# Audio_Played
+# Video_Played
+
 def callback_function(state, key):
     st.session_state[state] = st.session_state[key]
 
@@ -56,31 +61,6 @@ image_url   = 3
 audio_url   = 4
 video_url   = 5
 song_genre  = 6
-
-# Write stats into a file called "data" in the folder "stats" for persistency.
-# The values are stored in a dictionary with keys and their respective values.
-# The usage keys are:
-#     "visits"
-#     "audio_played"
-#     "video_played"
-# The play keys are ranging depending on the number of users:
-#     "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", ... , "n"
-#     where n is the number of users.
-# Each user has a dictionary with keys and their respective values.
-# The keys are:
-#   "played"
-#   "liked"
-# The values are:
-#   Incremental integers depending on number of times users played or liked a song.
-#   The values are incremented by 1 each time the user plays or likes their song.
-
-# total_songs = 0           # TODO: Total songs present.
-# total_logins = 0          # TODO: Detect logins to increment this value.
-# total_played = 0          # TODO: Aggregate the number of times all songs are played.
-# most_played = 0           # TODO: Analyze song_played to find this.
-# song_played = 0           # TODO: Detect when a specific song is played to increment this value.
-# song_liked = 0            # TODO: Add a button to like a song, and detect this event to increment value.
-# most_liked = 0            # TODO: Analyze song_liked to find this.
 
 # TODO: list of pendings ...
 # Zoom on current video being played, with a button to go back to the list of songs.
@@ -100,8 +80,6 @@ elif st.session_state.user_name:
     if 'visits' not in st.session_state:
         st.session_state.visits = 0
     st.session_state.visits += 1
-    # Write the stats into the file stats/data.
-    # TODO: Read the stats from the file stats/data.
 
     # Display the introduction.
     st.markdown("""
@@ -141,12 +119,6 @@ elif st.session_state.user_name:
             ##### {len(singforjoy.Songs)} songs shared here, and enjoyed {st.session_state.visits} times 👏
         """, unsafe_allow_html=True)
 
-        # TODO: Compute the total_views and total_logins.
-        ##### Total played ------  {total_played}
-        ##### Most  played ------  {most_played}
-        ##### Total liked -------  {total_liked}
-        ##### Most  liked -------  {most_liked}
-
     # Identify the songs based on genre selected.
     while index < len(singforjoy.Songs):
         if genre_selected == singforjoy.Songs[index][song_genre] or genre_selected == "All":
@@ -176,3 +148,5 @@ elif st.session_state.user_name:
                             st.image("https://picsum.photos/540/984", use_column_width=True)            # Random filler image
                     st.markdown(f"##### :blue[**{singforjoy.Songs[song_indexes[i*max_cols+j]][singer_name]}**] -:- :green[**_{singforjoy.Songs[song_indexes[i*max_cols+j]][song_name]}_**]")
                     st.audio(singforjoy.Songs[song_indexes[i*max_cols+j]][audio_url])
+
+    
